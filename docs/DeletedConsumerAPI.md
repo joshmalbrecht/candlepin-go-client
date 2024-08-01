@@ -26,7 +26,7 @@ import (
 	"fmt"
 	"os"
     "time"
-	openapiclient "github.com/joshmalbrecht/candlepin-go-client"
+	openapiclient "github.com/joshmalbrecht/candlepin-go-client/pkg"
 )
 
 func main() {

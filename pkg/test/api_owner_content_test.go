@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/joshmalbrecht/candlepin-go-client/pkg"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/joshmalbrecht/candlepin-go-client"
 )
 
 func Test_openapi_OwnerContentAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_OwnerContentAPIService(t *testing.T) {
 
 	t.Run("Test OwnerContentAPIService CreateContent", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var ownerKey string
 
@@ -38,7 +38,7 @@ func Test_openapi_OwnerContentAPIService(t *testing.T) {
 
 	t.Run("Test OwnerContentAPIService CreateContentBatch", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var ownerKey string
 
@@ -52,7 +52,7 @@ func Test_openapi_OwnerContentAPIService(t *testing.T) {
 
 	t.Run("Test OwnerContentAPIService GetContentById", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var ownerKey string
 		var contentId string
@@ -67,7 +67,7 @@ func Test_openapi_OwnerContentAPIService(t *testing.T) {
 
 	t.Run("Test OwnerContentAPIService GetContentsByOwner", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var ownerKey string
 
@@ -81,7 +81,7 @@ func Test_openapi_OwnerContentAPIService(t *testing.T) {
 
 	t.Run("Test OwnerContentAPIService RemoveContent", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var ownerKey string
 		var contentId string
@@ -95,7 +95,7 @@ func Test_openapi_OwnerContentAPIService(t *testing.T) {
 
 	t.Run("Test OwnerContentAPIService UpdateContent", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var ownerKey string
 		var contentId string

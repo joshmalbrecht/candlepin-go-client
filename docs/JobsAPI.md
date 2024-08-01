@@ -31,7 +31,7 @@ import (
 	"context"
 	"fmt"
 	"os"
-	openapiclient "github.com/joshmalbrecht/candlepin-go-client"
+	openapiclient "github.com/joshmalbrecht/candlepin-go-client/pkg"
 )
 
 func main() {
@@ -102,7 +102,7 @@ import (
 	"fmt"
 	"os"
     "time"
-	openapiclient "github.com/joshmalbrecht/candlepin-go-client"
+	openapiclient "github.com/joshmalbrecht/candlepin-go-client/pkg"
 )
 
 func main() {
@@ -186,7 +186,7 @@ import (
 	"context"
 	"fmt"
 	"os"
-	openapiclient "github.com/joshmalbrecht/candlepin-go-client"
+	openapiclient "github.com/joshmalbrecht/candlepin-go-client/pkg"
 )
 
 func main() {
@@ -256,7 +256,7 @@ import (
 	"context"
 	"fmt"
 	"os"
-	openapiclient "github.com/joshmalbrecht/candlepin-go-client"
+	openapiclient "github.com/joshmalbrecht/candlepin-go-client/pkg"
 )
 
 func main() {
@@ -318,7 +318,7 @@ import (
 	"fmt"
 	"os"
     "time"
-	openapiclient "github.com/joshmalbrecht/candlepin-go-client"
+	openapiclient "github.com/joshmalbrecht/candlepin-go-client/pkg"
 )
 
 func main() {
@@ -408,7 +408,7 @@ import (
 	"context"
 	"fmt"
 	"os"
-	openapiclient "github.com/joshmalbrecht/candlepin-go-client"
+	openapiclient "github.com/joshmalbrecht/candlepin-go-client/pkg"
 )
 
 func main() {
@@ -478,7 +478,7 @@ import (
 	"context"
 	"fmt"
 	"os"
-	openapiclient "github.com/joshmalbrecht/candlepin-go-client"
+	openapiclient "github.com/joshmalbrecht/candlepin-go-client/pkg"
 )
 
 func main() {

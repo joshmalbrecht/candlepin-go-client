@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/joshmalbrecht/candlepin-go-client/pkg"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/joshmalbrecht/candlepin-go-client"
 )
 
 func Test_openapi_JobsAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_JobsAPIService(t *testing.T) {
 
 	t.Run("Test JobsAPIService CancelJob", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id string
 
@@ -38,7 +38,7 @@ func Test_openapi_JobsAPIService(t *testing.T) {
 
 	t.Run("Test JobsAPIService CleanupTerminalJobs", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.JobsAPI.CleanupTerminalJobs(context.Background()).Execute()
 
@@ -50,7 +50,7 @@ func Test_openapi_JobsAPIService(t *testing.T) {
 
 	t.Run("Test JobsAPIService GetJobStatus", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id string
 
@@ -64,7 +64,7 @@ func Test_openapi_JobsAPIService(t *testing.T) {
 
 	t.Run("Test JobsAPIService GetSchedulerStatus", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.JobsAPI.GetSchedulerStatus(context.Background()).Execute()
 
@@ -76,7 +76,7 @@ func Test_openapi_JobsAPIService(t *testing.T) {
 
 	t.Run("Test JobsAPIService ListJobStatuses", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.JobsAPI.ListJobStatuses(context.Background()).Execute()
 
@@ -88,7 +88,7 @@ func Test_openapi_JobsAPIService(t *testing.T) {
 
 	t.Run("Test JobsAPIService ScheduleJob", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var jobKey string
 
@@ -102,7 +102,7 @@ func Test_openapi_JobsAPIService(t *testing.T) {
 
 	t.Run("Test JobsAPIService SetSchedulerStatus", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.JobsAPI.SetSchedulerStatus(context.Background()).Execute()
 

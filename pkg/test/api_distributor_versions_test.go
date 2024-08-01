@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/joshmalbrecht/candlepin-go-client/pkg"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/joshmalbrecht/candlepin-go-client"
 )
 
 func Test_openapi_DistributorVersionsAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_DistributorVersionsAPIService(t *testing.T) {
 
 	t.Run("Test DistributorVersionsAPIService Create", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DistributorVersionsAPI.Create(context.Background()).Execute()
 
@@ -36,7 +36,7 @@ func Test_openapi_DistributorVersionsAPIService(t *testing.T) {
 
 	t.Run("Test DistributorVersionsAPIService Delete", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id string
 
@@ -49,7 +49,7 @@ func Test_openapi_DistributorVersionsAPIService(t *testing.T) {
 
 	t.Run("Test DistributorVersionsAPIService GetVersions", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DistributorVersionsAPI.GetVersions(context.Background()).Execute()
 
@@ -61,7 +61,7 @@ func Test_openapi_DistributorVersionsAPIService(t *testing.T) {
 
 	t.Run("Test DistributorVersionsAPIService Update", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id string
 

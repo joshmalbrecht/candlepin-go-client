@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/joshmalbrecht/candlepin-go-client/pkg"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/joshmalbrecht/candlepin-go-client"
 )
 
 func Test_openapi_EnvironmentAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_EnvironmentAPIService(t *testing.T) {
 
 	t.Run("Test EnvironmentAPIService CreateConsumerInEnvironment", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var envId string
 
@@ -38,7 +38,7 @@ func Test_openapi_EnvironmentAPIService(t *testing.T) {
 
 	t.Run("Test EnvironmentAPIService DeleteEnvironment", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var envId string
 
@@ -51,7 +51,7 @@ func Test_openapi_EnvironmentAPIService(t *testing.T) {
 
 	t.Run("Test EnvironmentAPIService DeleteEnvironmentContentOverrides", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var environmentId string
 
@@ -65,7 +65,7 @@ func Test_openapi_EnvironmentAPIService(t *testing.T) {
 
 	t.Run("Test EnvironmentAPIService DemoteContent", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var envId string
 
@@ -79,7 +79,7 @@ func Test_openapi_EnvironmentAPIService(t *testing.T) {
 
 	t.Run("Test EnvironmentAPIService GetEnvironment", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var envId string
 
@@ -93,7 +93,7 @@ func Test_openapi_EnvironmentAPIService(t *testing.T) {
 
 	t.Run("Test EnvironmentAPIService GetEnvironmentContentOverrides", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var environmentId string
 
@@ -107,7 +107,7 @@ func Test_openapi_EnvironmentAPIService(t *testing.T) {
 
 	t.Run("Test EnvironmentAPIService PromoteContent", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var envId string
 
@@ -121,7 +121,7 @@ func Test_openapi_EnvironmentAPIService(t *testing.T) {
 
 	t.Run("Test EnvironmentAPIService PutEnvironmentContentOverrides", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var environmentId string
 
@@ -135,7 +135,7 @@ func Test_openapi_EnvironmentAPIService(t *testing.T) {
 
 	t.Run("Test EnvironmentAPIService UpdateEnvironment", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var envId string
 

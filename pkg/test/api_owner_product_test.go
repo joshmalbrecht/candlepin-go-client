@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/joshmalbrecht/candlepin-go-client/pkg"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/joshmalbrecht/candlepin-go-client"
 )
 
 func Test_openapi_OwnerProductAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_OwnerProductAPIService(t *testing.T) {
 
 	t.Run("Test OwnerProductAPIService AddContentToProduct", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var ownerKey string
 		var productId string
@@ -40,7 +40,7 @@ func Test_openapi_OwnerProductAPIService(t *testing.T) {
 
 	t.Run("Test OwnerProductAPIService AddContentsToProduct", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var ownerKey string
 		var productId string
@@ -55,7 +55,7 @@ func Test_openapi_OwnerProductAPIService(t *testing.T) {
 
 	t.Run("Test OwnerProductAPIService CreateProduct", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var ownerKey string
 
@@ -69,7 +69,7 @@ func Test_openapi_OwnerProductAPIService(t *testing.T) {
 
 	t.Run("Test OwnerProductAPIService GetProductById", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var ownerKey string
 		var productId string
@@ -84,7 +84,7 @@ func Test_openapi_OwnerProductAPIService(t *testing.T) {
 
 	t.Run("Test OwnerProductAPIService GetProductCertificateById", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var ownerKey string
 		var productId string
@@ -99,7 +99,7 @@ func Test_openapi_OwnerProductAPIService(t *testing.T) {
 
 	t.Run("Test OwnerProductAPIService GetProductsByOwner", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var ownerKey string
 
@@ -113,7 +113,7 @@ func Test_openapi_OwnerProductAPIService(t *testing.T) {
 
 	t.Run("Test OwnerProductAPIService RefreshPoolsForProduct", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var ownerKey string
 		var productId string
@@ -128,7 +128,7 @@ func Test_openapi_OwnerProductAPIService(t *testing.T) {
 
 	t.Run("Test OwnerProductAPIService RemoveContentFromProduct", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var ownerKey string
 		var productId string
@@ -144,7 +144,7 @@ func Test_openapi_OwnerProductAPIService(t *testing.T) {
 
 	t.Run("Test OwnerProductAPIService RemoveContentsFromProduct", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var ownerKey string
 		var productId string
@@ -159,7 +159,7 @@ func Test_openapi_OwnerProductAPIService(t *testing.T) {
 
 	t.Run("Test OwnerProductAPIService RemoveProduct", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var ownerKey string
 		var productId string
@@ -173,7 +173,7 @@ func Test_openapi_OwnerProductAPIService(t *testing.T) {
 
 	t.Run("Test OwnerProductAPIService UpdateProduct", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var ownerKey string
 		var productId string

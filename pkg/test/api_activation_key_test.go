@@ -11,10 +11,11 @@ package openapi
 
 import (
 	"context"
+	"testing"
+
+	openapiclient "github.com/joshmalbrecht/candlepin-go-client/pkg"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"testing"
-	openapiclient "github.com/joshmalbrecht/candlepin-go-client"
 )
 
 func Test_openapi_ActivationKeyAPIService(t *testing.T) {
@@ -24,7 +25,7 @@ func Test_openapi_ActivationKeyAPIService(t *testing.T) {
 
 	t.Run("Test ActivationKeyAPIService AddActivationKeyContentOverrides", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var activationKeyId string
 
@@ -38,7 +39,7 @@ func Test_openapi_ActivationKeyAPIService(t *testing.T) {
 
 	t.Run("Test ActivationKeyAPIService AddPoolToKey", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var activationKeyId string
 		var poolId string
@@ -53,7 +54,7 @@ func Test_openapi_ActivationKeyAPIService(t *testing.T) {
 
 	t.Run("Test ActivationKeyAPIService AddProductIdToKey", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var activationKeyId string
 		var productId string
@@ -68,7 +69,7 @@ func Test_openapi_ActivationKeyAPIService(t *testing.T) {
 
 	t.Run("Test ActivationKeyAPIService DeleteActivationKey", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var activationKeyId string
 
@@ -81,7 +82,7 @@ func Test_openapi_ActivationKeyAPIService(t *testing.T) {
 
 	t.Run("Test ActivationKeyAPIService DeleteActivationKeyContentOverrides", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var activationKeyId string
 
@@ -95,7 +96,7 @@ func Test_openapi_ActivationKeyAPIService(t *testing.T) {
 
 	t.Run("Test ActivationKeyAPIService FindActivationKey", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ActivationKeyAPI.FindActivationKey(context.Background()).Execute()
 
@@ -107,7 +108,7 @@ func Test_openapi_ActivationKeyAPIService(t *testing.T) {
 
 	t.Run("Test ActivationKeyAPIService GetActivationKey", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var activationKeyId string
 
@@ -121,7 +122,7 @@ func Test_openapi_ActivationKeyAPIService(t *testing.T) {
 
 	t.Run("Test ActivationKeyAPIService GetActivationKeyPools", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var activationKeyId string
 
@@ -135,7 +136,7 @@ func Test_openapi_ActivationKeyAPIService(t *testing.T) {
 
 	t.Run("Test ActivationKeyAPIService ListActivationKeyContentOverrides", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var activationKeyId string
 
@@ -149,7 +150,7 @@ func Test_openapi_ActivationKeyAPIService(t *testing.T) {
 
 	t.Run("Test ActivationKeyAPIService RemovePoolFromKey", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var activationKeyId string
 		var poolId string
@@ -164,7 +165,7 @@ func Test_openapi_ActivationKeyAPIService(t *testing.T) {
 
 	t.Run("Test ActivationKeyAPIService RemoveProductIdFromKey", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var activationKeyId string
 		var productId string
@@ -179,7 +180,7 @@ func Test_openapi_ActivationKeyAPIService(t *testing.T) {
 
 	t.Run("Test ActivationKeyAPIService UpdateActivationKey", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var activationKeyId string
 

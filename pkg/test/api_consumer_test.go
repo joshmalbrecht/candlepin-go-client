@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/joshmalbrecht/candlepin-go-client/pkg"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/joshmalbrecht/candlepin-go-client"
 )
 
 func Test_openapi_ConsumerAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_ConsumerAPIService(t *testing.T) {
 
 	t.Run("Test ConsumerAPIService AddConsumerContentOverrides", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var consumerUuid string
 
@@ -38,7 +38,7 @@ func Test_openapi_ConsumerAPIService(t *testing.T) {
 
 	t.Run("Test ConsumerAPIService Bind", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var consumerUuid string
 
@@ -52,7 +52,7 @@ func Test_openapi_ConsumerAPIService(t *testing.T) {
 
 	t.Run("Test ConsumerAPIService ConsumerExists", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var consumerUuid string
 
@@ -65,7 +65,7 @@ func Test_openapi_ConsumerAPIService(t *testing.T) {
 
 	t.Run("Test ConsumerAPIService ConsumerExistsBulk", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.ConsumerAPI.ConsumerExistsBulk(context.Background()).Execute()
 
@@ -76,7 +76,7 @@ func Test_openapi_ConsumerAPIService(t *testing.T) {
 
 	t.Run("Test ConsumerAPIService CreateConsumer", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ConsumerAPI.CreateConsumer(context.Background()).Execute()
 
@@ -88,7 +88,7 @@ func Test_openapi_ConsumerAPIService(t *testing.T) {
 
 	t.Run("Test ConsumerAPIService DeleteConsumer", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var consumerUuid string
 
@@ -101,7 +101,7 @@ func Test_openapi_ConsumerAPIService(t *testing.T) {
 
 	t.Run("Test ConsumerAPIService DeleteConsumerContentOverrides", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var consumerUuid string
 
@@ -115,7 +115,7 @@ func Test_openapi_ConsumerAPIService(t *testing.T) {
 
 	t.Run("Test ConsumerAPIService DownloadExistingExport", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var consumerUuid string
 		var exportId string
@@ -130,7 +130,7 @@ func Test_openapi_ConsumerAPIService(t *testing.T) {
 
 	t.Run("Test ConsumerAPIService DryBind", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var consumerUuid string
 
@@ -144,7 +144,7 @@ func Test_openapi_ConsumerAPIService(t *testing.T) {
 
 	t.Run("Test ConsumerAPIService ExportCertificates", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var consumerUuid string
 
@@ -158,7 +158,7 @@ func Test_openapi_ConsumerAPIService(t *testing.T) {
 
 	t.Run("Test ConsumerAPIService ExportData", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var consumerUuid string
 
@@ -172,7 +172,7 @@ func Test_openapi_ConsumerAPIService(t *testing.T) {
 
 	t.Run("Test ConsumerAPIService ExportDataAsync", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var consumerUuid string
 
@@ -186,7 +186,7 @@ func Test_openapi_ConsumerAPIService(t *testing.T) {
 
 	t.Run("Test ConsumerAPIService GetComplianceStatus", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var consumerUuid string
 
@@ -200,7 +200,7 @@ func Test_openapi_ConsumerAPIService(t *testing.T) {
 
 	t.Run("Test ConsumerAPIService GetComplianceStatusList", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ConsumerAPI.GetComplianceStatusList(context.Background()).Execute()
 
@@ -212,7 +212,7 @@ func Test_openapi_ConsumerAPIService(t *testing.T) {
 
 	t.Run("Test ConsumerAPIService GetConsumer", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var consumerUuid string
 
@@ -226,7 +226,7 @@ func Test_openapi_ConsumerAPIService(t *testing.T) {
 
 	t.Run("Test ConsumerAPIService GetContentAccessBody", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var consumerUuid string
 
@@ -240,7 +240,7 @@ func Test_openapi_ConsumerAPIService(t *testing.T) {
 
 	t.Run("Test ConsumerAPIService GetContentAccessForConsumer", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var consumerUuid string
 
@@ -254,7 +254,7 @@ func Test_openapi_ConsumerAPIService(t *testing.T) {
 
 	t.Run("Test ConsumerAPIService GetEntitlementCertificateSerials", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var consumerUuid string
 
@@ -268,7 +268,7 @@ func Test_openapi_ConsumerAPIService(t *testing.T) {
 
 	t.Run("Test ConsumerAPIService GetGuests", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var consumerUuid string
 
@@ -282,7 +282,7 @@ func Test_openapi_ConsumerAPIService(t *testing.T) {
 
 	t.Run("Test ConsumerAPIService GetHost", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var consumerUuid string
 
@@ -296,7 +296,7 @@ func Test_openapi_ConsumerAPIService(t *testing.T) {
 
 	t.Run("Test ConsumerAPIService GetOwnerByConsumerUuid", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var consumerUuid string
 
@@ -310,7 +310,7 @@ func Test_openapi_ConsumerAPIService(t *testing.T) {
 
 	t.Run("Test ConsumerAPIService GetRelease", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var consumerUuid string
 
@@ -324,7 +324,7 @@ func Test_openapi_ConsumerAPIService(t *testing.T) {
 
 	t.Run("Test ConsumerAPIService GetSystemPurposeComplianceStatus", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var consumerUuid string
 
@@ -338,7 +338,7 @@ func Test_openapi_ConsumerAPIService(t *testing.T) {
 
 	t.Run("Test ConsumerAPIService ListConsumerContentOverrides", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var consumerUuid string
 
@@ -352,7 +352,7 @@ func Test_openapi_ConsumerAPIService(t *testing.T) {
 
 	t.Run("Test ConsumerAPIService ListEntitlements", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var consumerUuid string
 
@@ -366,7 +366,7 @@ func Test_openapi_ConsumerAPIService(t *testing.T) {
 
 	t.Run("Test ConsumerAPIService RegenerateEntitlementCertificates", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var consumerUuid string
 
@@ -379,7 +379,7 @@ func Test_openapi_ConsumerAPIService(t *testing.T) {
 
 	t.Run("Test ConsumerAPIService RegenerateIdentityCertificates", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var consumerUuid string
 
@@ -393,7 +393,7 @@ func Test_openapi_ConsumerAPIService(t *testing.T) {
 
 	t.Run("Test ConsumerAPIService RemoveDeletionRecord", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var consumerUuid string
 
@@ -406,7 +406,7 @@ func Test_openapi_ConsumerAPIService(t *testing.T) {
 
 	t.Run("Test ConsumerAPIService SearchConsumers", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ConsumerAPI.SearchConsumers(context.Background()).Execute()
 
@@ -418,7 +418,7 @@ func Test_openapi_ConsumerAPIService(t *testing.T) {
 
 	t.Run("Test ConsumerAPIService UnbindAll", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var consumerUuid string
 
@@ -432,7 +432,7 @@ func Test_openapi_ConsumerAPIService(t *testing.T) {
 
 	t.Run("Test ConsumerAPIService UnbindByEntitlementId", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var consumerUuid string
 		var dbid string
@@ -446,7 +446,7 @@ func Test_openapi_ConsumerAPIService(t *testing.T) {
 
 	t.Run("Test ConsumerAPIService UnbindByPool", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var consumerUuid string
 		var poolId string
@@ -460,7 +460,7 @@ func Test_openapi_ConsumerAPIService(t *testing.T) {
 
 	t.Run("Test ConsumerAPIService UnbindBySerial", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var consumerUuid string
 		var serial int64
@@ -474,7 +474,7 @@ func Test_openapi_ConsumerAPIService(t *testing.T) {
 
 	t.Run("Test ConsumerAPIService UpdateConsumer", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var consumerUuid string
 
