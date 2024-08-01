@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/joshmalbrecht/candlepin-go-client/pkg"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/joshmalbrecht/candlepin-go-client"
 )
 
 func Test_openapi_ConsumerTypeAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_ConsumerTypeAPIService(t *testing.T) {
 
 	t.Run("Test ConsumerTypeAPIService CreateConsumerType", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ConsumerTypeAPI.CreateConsumerType(context.Background()).Execute()
 
@@ -36,7 +36,7 @@ func Test_openapi_ConsumerTypeAPIService(t *testing.T) {
 
 	t.Run("Test ConsumerTypeAPIService DeleteConsumerType", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id string
 
@@ -49,7 +49,7 @@ func Test_openapi_ConsumerTypeAPIService(t *testing.T) {
 
 	t.Run("Test ConsumerTypeAPIService GetConsumerType", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id string
 
@@ -63,7 +63,7 @@ func Test_openapi_ConsumerTypeAPIService(t *testing.T) {
 
 	t.Run("Test ConsumerTypeAPIService GetConsumerTypes", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ConsumerTypeAPI.GetConsumerTypes(context.Background()).Execute()
 
@@ -75,7 +75,7 @@ func Test_openapi_ConsumerTypeAPIService(t *testing.T) {
 
 	t.Run("Test ConsumerTypeAPIService UpdateConsumerType", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id string
 

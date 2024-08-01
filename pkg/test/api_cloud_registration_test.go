@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/joshmalbrecht/candlepin-go-client/pkg"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/joshmalbrecht/candlepin-go-client"
 )
 
 func Test_openapi_CloudRegistrationAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_CloudRegistrationAPIService(t *testing.T) {
 
 	t.Run("Test CloudRegistrationAPIService CancelCloudAccountJobs", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var cloudAccountId string
 
@@ -38,7 +38,7 @@ func Test_openapi_CloudRegistrationAPIService(t *testing.T) {
 
 	t.Run("Test CloudRegistrationAPIService CloudAuthorize", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.CloudRegistrationAPI.CloudAuthorize(context.Background()).Execute()
 
@@ -50,7 +50,7 @@ func Test_openapi_CloudRegistrationAPIService(t *testing.T) {
 
 	t.Run("Test CloudRegistrationAPIService DeleteAnonymousConsumersByAccountId", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.CloudRegistrationAPI.DeleteAnonymousConsumersByAccountId(context.Background()).Execute()
 

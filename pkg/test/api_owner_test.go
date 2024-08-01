@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/joshmalbrecht/candlepin-go-client/pkg"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/joshmalbrecht/candlepin-go-client"
 )
 
 func Test_openapi_OwnerAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_OwnerAPIService(t *testing.T) {
 
 	t.Run("Test OwnerAPIService Claim", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var anonymousOwnerKey string
 
@@ -38,7 +38,7 @@ func Test_openapi_OwnerAPIService(t *testing.T) {
 
 	t.Run("Test OwnerAPIService CountConsumers", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var ownerKey string
 
@@ -52,7 +52,7 @@ func Test_openapi_OwnerAPIService(t *testing.T) {
 
 	t.Run("Test OwnerAPIService CreateActivationKey", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var ownerKey string
 
@@ -66,7 +66,7 @@ func Test_openapi_OwnerAPIService(t *testing.T) {
 
 	t.Run("Test OwnerAPIService CreateEnvironment", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var ownerKey string
 
@@ -80,7 +80,7 @@ func Test_openapi_OwnerAPIService(t *testing.T) {
 
 	t.Run("Test OwnerAPIService CreateOwner", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.OwnerAPI.CreateOwner(context.Background()).Execute()
 
@@ -92,7 +92,7 @@ func Test_openapi_OwnerAPIService(t *testing.T) {
 
 	t.Run("Test OwnerAPIService CreatePool", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var ownerKey string
 
@@ -106,7 +106,7 @@ func Test_openapi_OwnerAPIService(t *testing.T) {
 
 	t.Run("Test OwnerAPIService CreateUeberCertificate", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var ownerKey string
 
@@ -120,7 +120,7 @@ func Test_openapi_OwnerAPIService(t *testing.T) {
 
 	t.Run("Test OwnerAPIService DeleteLogLevel", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var ownerKey string
 
@@ -133,7 +133,7 @@ func Test_openapi_OwnerAPIService(t *testing.T) {
 
 	t.Run("Test OwnerAPIService DeleteOwner", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var ownerKey string
 
@@ -146,7 +146,7 @@ func Test_openapi_OwnerAPIService(t *testing.T) {
 
 	t.Run("Test OwnerAPIService GetConsumersSyspurpose", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var ownerKey string
 
@@ -160,7 +160,7 @@ func Test_openapi_OwnerAPIService(t *testing.T) {
 
 	t.Run("Test OwnerAPIService GetHypervisors", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var ownerKey string
 
@@ -174,7 +174,7 @@ func Test_openapi_OwnerAPIService(t *testing.T) {
 
 	t.Run("Test OwnerAPIService GetImports", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var ownerKey string
 
@@ -188,7 +188,7 @@ func Test_openapi_OwnerAPIService(t *testing.T) {
 
 	t.Run("Test OwnerAPIService GetOwner", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var ownerKey string
 
@@ -202,7 +202,7 @@ func Test_openapi_OwnerAPIService(t *testing.T) {
 
 	t.Run("Test OwnerAPIService GetOwnerContentAccess", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var ownerKey string
 
@@ -216,7 +216,7 @@ func Test_openapi_OwnerAPIService(t *testing.T) {
 
 	t.Run("Test OwnerAPIService GetOwnerInfo", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var ownerKey string
 
@@ -230,7 +230,7 @@ func Test_openapi_OwnerAPIService(t *testing.T) {
 
 	t.Run("Test OwnerAPIService GetOwnerSubscriptions", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var ownerKey string
 
@@ -244,7 +244,7 @@ func Test_openapi_OwnerAPIService(t *testing.T) {
 
 	t.Run("Test OwnerAPIService GetSyspurpose", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var ownerKey string
 
@@ -258,7 +258,7 @@ func Test_openapi_OwnerAPIService(t *testing.T) {
 
 	t.Run("Test OwnerAPIService GetUeberCertificate", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var ownerKey string
 
@@ -272,7 +272,7 @@ func Test_openapi_OwnerAPIService(t *testing.T) {
 
 	t.Run("Test OwnerAPIService GetUpstreamConsumers", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var ownerKey string
 
@@ -286,7 +286,7 @@ func Test_openapi_OwnerAPIService(t *testing.T) {
 
 	t.Run("Test OwnerAPIService HealEntire", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var ownerKey string
 
@@ -300,7 +300,7 @@ func Test_openapi_OwnerAPIService(t *testing.T) {
 
 	t.Run("Test OwnerAPIService ImportManifestAsync", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var ownerKey string
 
@@ -314,7 +314,7 @@ func Test_openapi_OwnerAPIService(t *testing.T) {
 
 	t.Run("Test OwnerAPIService ListConsumers", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var ownerKey string
 
@@ -328,7 +328,7 @@ func Test_openapi_OwnerAPIService(t *testing.T) {
 
 	t.Run("Test OwnerAPIService ListEnvironments", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var ownerKey string
 
@@ -342,7 +342,7 @@ func Test_openapi_OwnerAPIService(t *testing.T) {
 
 	t.Run("Test OwnerAPIService ListOwnerPools", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var ownerKey string
 
@@ -356,7 +356,7 @@ func Test_openapi_OwnerAPIService(t *testing.T) {
 
 	t.Run("Test OwnerAPIService ListOwners", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.OwnerAPI.ListOwners(context.Background()).Execute()
 
@@ -368,7 +368,7 @@ func Test_openapi_OwnerAPIService(t *testing.T) {
 
 	t.Run("Test OwnerAPIService OwnerActivationKeys", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var ownerKey string
 
@@ -382,7 +382,7 @@ func Test_openapi_OwnerAPIService(t *testing.T) {
 
 	t.Run("Test OwnerAPIService OwnerEntitlements", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var ownerKey string
 
@@ -396,7 +396,7 @@ func Test_openapi_OwnerAPIService(t *testing.T) {
 
 	t.Run("Test OwnerAPIService OwnerServiceLevels", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var ownerKey string
 
@@ -410,7 +410,7 @@ func Test_openapi_OwnerAPIService(t *testing.T) {
 
 	t.Run("Test OwnerAPIService RefreshPools", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var ownerKey string
 
@@ -424,7 +424,7 @@ func Test_openapi_OwnerAPIService(t *testing.T) {
 
 	t.Run("Test OwnerAPIService SetLogLevel", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var ownerKey string
 
@@ -438,7 +438,7 @@ func Test_openapi_OwnerAPIService(t *testing.T) {
 
 	t.Run("Test OwnerAPIService UndoImports", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var ownerKey string
 
@@ -452,7 +452,7 @@ func Test_openapi_OwnerAPIService(t *testing.T) {
 
 	t.Run("Test OwnerAPIService UpdateOwner", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var ownerKey string
 
@@ -466,7 +466,7 @@ func Test_openapi_OwnerAPIService(t *testing.T) {
 
 	t.Run("Test OwnerAPIService UpdatePool", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var ownerKey string
 

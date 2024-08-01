@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/joshmalbrecht/candlepin-go-client/pkg"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/joshmalbrecht/candlepin-go-client"
 )
 
 func Test_openapi_PoolsAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_PoolsAPIService(t *testing.T) {
 
 	t.Run("Test PoolsAPIService DeletePool", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var poolId string
 
@@ -37,7 +37,7 @@ func Test_openapi_PoolsAPIService(t *testing.T) {
 
 	t.Run("Test PoolsAPIService GetPool", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var poolId string
 
@@ -51,7 +51,7 @@ func Test_openapi_PoolsAPIService(t *testing.T) {
 
 	t.Run("Test PoolsAPIService GetPoolCdn", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var poolId string
 
@@ -65,7 +65,7 @@ func Test_openapi_PoolsAPIService(t *testing.T) {
 
 	t.Run("Test PoolsAPIService GetPoolEntitlements", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var poolId string
 
@@ -79,7 +79,7 @@ func Test_openapi_PoolsAPIService(t *testing.T) {
 
 	t.Run("Test PoolsAPIService GetSubCert", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var poolId string
 
@@ -93,7 +93,7 @@ func Test_openapi_PoolsAPIService(t *testing.T) {
 
 	t.Run("Test PoolsAPIService ListEntitledConsumerUuids", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var poolId string
 
@@ -107,7 +107,7 @@ func Test_openapi_PoolsAPIService(t *testing.T) {
 
 	t.Run("Test PoolsAPIService ListPools", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.PoolsAPI.ListPools(context.Background()).Execute()
 

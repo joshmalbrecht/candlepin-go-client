@@ -11,10 +11,11 @@ package openapi
 
 import (
 	"context"
+	"testing"
+
+	openapiclient "github.com/joshmalbrecht/candlepin-go-client/pkg"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"testing"
-	openapiclient "github.com/joshmalbrecht/candlepin-go-client"
 )
 
 func Test_openapi_AdminAPIService(t *testing.T) {
@@ -24,7 +25,7 @@ func Test_openapi_AdminAPIService(t *testing.T) {
 
 	t.Run("Test AdminAPIService GetQueueStats", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.AdminAPI.GetQueueStats(context.Background()).Execute()
 
@@ -36,7 +37,7 @@ func Test_openapi_AdminAPIService(t *testing.T) {
 
 	t.Run("Test AdminAPIService Initialize", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.AdminAPI.Initialize(context.Background()).Execute()
 

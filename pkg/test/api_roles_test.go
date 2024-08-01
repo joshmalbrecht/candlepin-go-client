@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/joshmalbrecht/candlepin-go-client/pkg"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/joshmalbrecht/candlepin-go-client"
 )
 
 func Test_openapi_RolesAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_RolesAPIService(t *testing.T) {
 
 	t.Run("Test RolesAPIService AddRolePermission", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var roleName string
 
@@ -38,7 +38,7 @@ func Test_openapi_RolesAPIService(t *testing.T) {
 
 	t.Run("Test RolesAPIService AddUserToRole", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var roleName string
 		var username string
@@ -53,7 +53,7 @@ func Test_openapi_RolesAPIService(t *testing.T) {
 
 	t.Run("Test RolesAPIService CreateRole", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.RolesAPI.CreateRole(context.Background()).Execute()
 
@@ -65,7 +65,7 @@ func Test_openapi_RolesAPIService(t *testing.T) {
 
 	t.Run("Test RolesAPIService DeleteRoleByName", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var roleName string
 
@@ -78,7 +78,7 @@ func Test_openapi_RolesAPIService(t *testing.T) {
 
 	t.Run("Test RolesAPIService DeleteUserFromRole", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var roleName string
 		var username string
@@ -93,7 +93,7 @@ func Test_openapi_RolesAPIService(t *testing.T) {
 
 	t.Run("Test RolesAPIService GetRoleByName", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var roleName string
 
@@ -107,7 +107,7 @@ func Test_openapi_RolesAPIService(t *testing.T) {
 
 	t.Run("Test RolesAPIService GetRoles", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.RolesAPI.GetRoles(context.Background()).Execute()
 
@@ -119,7 +119,7 @@ func Test_openapi_RolesAPIService(t *testing.T) {
 
 	t.Run("Test RolesAPIService RemoveRolePermission", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var roleName string
 		var permId string
@@ -134,7 +134,7 @@ func Test_openapi_RolesAPIService(t *testing.T) {
 
 	t.Run("Test RolesAPIService UpdateRole", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var roleName string
 
